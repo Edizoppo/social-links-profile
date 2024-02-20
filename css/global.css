@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.container{
+    position: relative;
+    background-color:hsl(0, 0%, 12%);
+    width: 330px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.image{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.picture{
+    border-radius: 50%;
+    width: 99px;
+}
+
+.Jessica{
+    text-align: center;
+    color: white;
+    padding: 22px 22px 12px 22px;
+    
+}
+
+.london{
+   text-align: center;
+   color: hsl(75, 94%, 57%);
+}
+
+.descricao p{
+   color: hsl(0, 0%, 100%);
+   text-align: center;
+  
+   padding: 22px 22px 12px 22px;
+}
+
+.allbox {
+    
+    margin-left: 37px;
+}
+
+.quadrado{
+    background-color: hsl(0, 0%, 20%);
+    display: block;
+    width: 264px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.quadrado span{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.quadrado_instagram{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    width: 264px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 38px;
+}
